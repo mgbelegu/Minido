@@ -1,0 +1,20 @@
+.listItem {
+    padding: 12px;
+    margin:6px;
+    font-size: 16px;
+    box-shadow: none;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.listItem:focus{
+    background-color: #212529;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.itemDiv {
+    display: flex;
+    justify-content: space-between;
+}

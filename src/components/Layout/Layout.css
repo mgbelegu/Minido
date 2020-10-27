@@ -1,0 +1,14 @@
+.Content {
+    margin-top: 16px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+h3 {
+    text-align: left;
+}
+
+input {
+    width: auto;
+}
