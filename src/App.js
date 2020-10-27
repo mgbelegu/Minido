@@ -106,7 +106,7 @@ class App extends Component {
               deleteItem={() => this.deleteItemCompletedHandler(indexCompleted)}
               key={item.id}/>;
           })}
-        <p>Made by <a href="https://minimalistwebs.com/" target="_blank">MinimalistWebs</a> &copy; 2020</p>
+        <p>Made by <a href="https://minimalistwebs.com/" target="_blank" rel="noreferrer">MinimalistWebs</a> &copy; 2020</p>
         </Layout>
       </div>
     );
