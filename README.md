@@ -1,6 +1,8 @@
 # Minido
 
 React.js minimalist to-do application.
+Check out my website: [https://minimalistwebs.com](https://minimalistwebs.com/)
+
 
 ## Download and try
 
@@ -14,4 +16,3 @@ Installs the app.
 
 Runs the app.
 
-Check out my website: [https://minimalistwebs.com](https://minimalistwebs.com/)
