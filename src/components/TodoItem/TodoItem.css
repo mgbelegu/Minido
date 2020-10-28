@@ -17,4 +17,12 @@
 .itemDiv {
     display: flex;
     justify-content: space-between;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.itemDiv div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }

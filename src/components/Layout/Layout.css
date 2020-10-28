@@ -3,6 +3,7 @@
     text-align: center;
     width: 500px;
     margin: auto;
+    transition: all 0.2 ease-in-out;
 }
 
 h3 {
@@ -11,4 +12,21 @@ h3 {
 
 input {
     width: auto;
+}
+
+
+@media (max-width: 550px) {
+    .Content {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .Content {
+        width: 300px;
+    }
+
+    input {
+        width: 50%;
+    }
 }

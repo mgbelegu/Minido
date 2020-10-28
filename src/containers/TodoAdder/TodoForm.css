@@ -27,6 +27,11 @@ form {
     height: 44px;
     margin-bottom: 24px;
     transition-duration: 0.2s;
+    background-image: url("../../assets/images/add2.png");
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    image-rendering: crisp-edges;
 }
 
 .itemAdd:focus {
@@ -35,4 +40,5 @@ form {
 
 .itemAdd:hover {
     box-shadow: 0 0px 1px 0 rgba(0,0,0,0.24), 0 0px 7px 0 rgba(0,0,0,0.19);
+    background-color:#00503b;
 }
