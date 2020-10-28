@@ -3,10 +3,16 @@
 }
 
 p {
-    margin-top: 66px;
+    margin-top: 200px;
     font-size: 12px;
 }
 
 a {
     color: #212529;
+}
+
+.emptyMessage {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 64px;
 }

@@ -79,6 +79,22 @@ class App extends Component {
       itemsCompleted: []
     });
   }
+
+  showEmptyMessage = () => {
+    if(this.state.items.length === 0){
+      return <p className="emptyMessage">Add a task.</p>
+    } else {
+      return null;
+    }
+  }
+
+  showEmptyMessageCompleted = () => {
+    if(this.state.itemsCompleted.length === 0){
+      return <p className="emptyMessage">You don't have any completed tasks.</p>
+    } else {
+      return null;
+    }
+  }
   
   render(){
     return(
@@ -89,17 +105,17 @@ class App extends Component {
             onChange={this.inputHandler} 
             value={this.state.value}/>
           <h3>To-Do:</h3>
+          {this.showEmptyMessage()}
           {this.state.items.map((item, index) => {
-            return <TodoItem 
+              return <TodoItem 
               name={item.name}
               deleteItem={() => this.deleteItemHandler(index)}
               modifyItemInput={(e) => this.modifyItemHandler(index, e)}
               doneItem={(e) => this.handleCompleteItem(index, e)}
-              key={item.id}/>;
+              key={item.id}/>;            
           })}
           <h3 className="completedTitle">Completed:</h3>
-          
-
+          {this.showEmptyMessageCompleted()}
           {this.state.itemsCompleted.map((item, indexCompleted) => {
             return <TodoItemCompleted 
               name={item.name}
