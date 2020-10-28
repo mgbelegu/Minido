@@ -1,6 +1,7 @@
 # Minido
 
 React.js minimalist to-do application.
+
 Check out my website: [https://minimalistwebs.com](https://minimalistwebs.com/)
 
 
