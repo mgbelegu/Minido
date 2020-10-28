@@ -21,8 +21,9 @@
 
 .itemDiv div {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center !important;
 }
 
 .listItemCompleted {

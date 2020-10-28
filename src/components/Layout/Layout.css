@@ -1,8 +1,6 @@
 .Content {
-    margin-top: 16px;
     text-align: center;
-    width: 500px;
-    margin: auto;
+    width: 100% !important;
     transition: all 0.2 ease-in-out;
 }
 
