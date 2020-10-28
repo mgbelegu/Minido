@@ -5,7 +5,7 @@ import './TodoItem.css';
 const todoItemCompleted = (props) => {
         return (
             <div className="itemDiv">
-                <input className="listItem" value={props.name} readOnly/>
+                <li className="listItemCompleted">{props.name}</li> 
                 <div>
                     <Delete onDelete={props.deleteItem}/>
                 </div>

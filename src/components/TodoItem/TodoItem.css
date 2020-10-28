@@ -26,3 +26,12 @@
     flex-wrap: wrap;
     align-content: center;
 }
+
+.listItemCompleted {
+    padding: 12px;
+    margin:6px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+    list-style-type: none;
+    text-decoration: line-through;
+}
