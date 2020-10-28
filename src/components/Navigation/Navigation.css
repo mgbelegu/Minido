@@ -4,6 +4,12 @@
     display: flex;
 }
 
+.Header img {
+    height: 58px;
+    image-rendering: crisp-edges;
+}
+
 .title {
     color: white;
+    margin-left: 8px;
 }

@@ -1,9 +1,10 @@
 import React from 'react';
 import './Navigation.css';
+import minidoLogo from '../../assets/images/Minido.png';
 
 const navigation = () => (
     <div className="Header">
-        <img src="" alt="Minido Logo"/>
+        <img src={minidoLogo} alt="Minido Logo"/>
         <h3 className="title">Minido</h3>
     </div>
 );

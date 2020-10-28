@@ -3,18 +3,24 @@
 }
 
 p {
-    margin-top: 200px;
+    margin-top: 64px;
     font-size: 12px;
 }
 
 a {
     color: #212529;
 }
+h3 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
 
 .emptyMessage {
     font-style: italic;
     color: rgba(0, 0, 0, 0.6);
     margin-top: 64px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 @media (max-width: 550px) {

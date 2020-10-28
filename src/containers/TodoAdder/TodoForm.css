@@ -3,14 +3,15 @@
     padding: 12px;
     border: none;
     border-bottom: 1px solid #212529;
-    width: 75%;
+    width: 84%;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 64px 0;
+    margin: 64px 16px;
 }
 
 .itemInput:focus {

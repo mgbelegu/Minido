@@ -6,7 +6,7 @@ import './TodoItem.css';
 const todoItem = (props) => {
         return (
             <div className="itemDiv">
-                <input className="listItem" value={props.name} onChange={props.modifyItemInput}/>
+                <li className="listItem" onChange={props.modifyItemInput}>{props.name}</li>
                 <div>
                     <Done onDone={props.doneItem}/>
                     <Delete onDelete={props.deleteItem}/>
