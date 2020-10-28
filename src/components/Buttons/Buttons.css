@@ -48,16 +48,19 @@
 .delete:hover {
     box-shadow: 0 0px 1px 0 rgba(0,0,0,0.24), 0 0px 7px 0 rgba(0,0,0,0.19);
     background-color:#440000;
+    cursor: pointer;
 
 }
 
 .deleteAll:hover {
     box-shadow: 0 0px 1px 0 rgba(0,0,0,0.24), 0 0px 7px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
 }
 
 .done:hover {
     box-shadow: 0 0px 1px 0 rgba(0,0,0,0.24), 0 0px 7px 0 rgba(0,0,0,0.19);
     background-color:#00503b;
+    cursor: pointer;
 }
 
 .delete:active {
