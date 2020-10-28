@@ -40,7 +40,7 @@
     transition-duration: 0.2s;
     background-image: url(../../assets/images/checkmark.png);
     background-position: center;
-    background-size: 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
     image-rendering: crisp-edges;
 }
@@ -86,9 +86,9 @@
 
 @media (max-width: 450px){
     .delete {
-        width: auto;
+        width: 40px;
     }
     .done {
-        width: auto;
+        width: 40px;
     }
 }
