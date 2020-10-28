@@ -27,7 +27,7 @@ form {
     height: 44px;
     margin-bottom: 24px;
     transition-duration: 0.2s;
-    background-image: url("../../assets/images/add2.png");
+    background-image: url(../../assets/images/add2.png);
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;

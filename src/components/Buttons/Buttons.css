@@ -8,7 +8,7 @@
     width: 60px;
     height: 40px;
     transition-duration: 0.2s;
-    background-image: url("../../assets/images/delete.png");
+    background-image: url(../../assets/images/delete.png);
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
     width: 60px;
     height: 40px;
     transition-duration: 0.2s;
-    background-image: url("../../assets/images/checkmark.png");
+    background-image: url(../../assets/images/checkmark.png);
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
