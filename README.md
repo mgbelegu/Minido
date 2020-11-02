@@ -1,6 +1,6 @@
 # Minido
 
-React.js minimalist to-do application.
+Minimalist to-do application created using REACT JS.
 
 Check out my website: [https://minimalistwebs.com](https://minimalistwebs.com/)
 
