@@ -3,17 +3,21 @@ import Delete from '../Buttons/DeleteButton';
 import Done from '../Buttons/DoneButton';
 import './TodoItem.css';
 
-const todoItem = (props) => {
+class TodoItem extends React.Component{
+
+    render(){
         return (
             <div className="itemDiv">
-                <li className="listItem" onChange={props.modifyItemInput}>{props.name}</li>
+                <div
+                contentEditable="true" 
+                className="listItem"
+                onChange={this.props.modifyItemInput}>{this.props.name}</div>
                 <div>
-                    <Done onDone={props.doneItem}/>
-                    <Delete onDelete={props.deleteItem}/>
+                    <Done onDone={this.props.doneItem}/>
+                    <Delete onDelete={this.props.deleteItem}/>
                 </div>
             </div>
-            
         );
+    }
 }
-
-export default todoItem;
+export default TodoItem;
