@@ -11,6 +11,7 @@
     max-width: 59%;
     transition: background-color 0.2s ease-in-out;
     color: #01143d;
+    word-wrap: break-word;
 }
 
 .itemDiv {
@@ -32,10 +33,14 @@
     margin-bottom: auto;
 }
 
+
 .listItemCompleted {
     padding: 12px;
     margin:6px;
     font-size: 16px;
     color:#7e8aa6;
     list-style-type: none;
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 80%;
 }
