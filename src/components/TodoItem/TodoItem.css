@@ -21,7 +21,7 @@
     margin: 16px 32px;
     border-radius: 10px;
     padding: 20px 16px;
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.15);
 }
 
 .itemDiv div {
@@ -35,8 +35,7 @@
 
 
 .listItemCompleted {
-    padding: 12px;
-    margin:6px;
+    padding: 12px 16px;
     font-size: 16px;
     color:#7e8aa6;
     list-style-type: none;

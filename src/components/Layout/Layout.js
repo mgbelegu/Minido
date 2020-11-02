@@ -6,7 +6,7 @@ import Navigation from '../Navigation/Navigation';
 const layout = (props) => (
     <Aux>
         <main className="Content">
-            <Navigation />
+            <Navigation clicked={props.navClicked}/>
             {props.children}
         </main>
     </Aux>
