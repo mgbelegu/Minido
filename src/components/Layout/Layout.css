@@ -1,7 +1,12 @@
 .Content {
     text-align: center;
-    width: 100% !important;
+    width: 500px;
     transition: all 0.2 ease-in-out;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background-color: #f2f4f6;
 }
 
 h3 {
@@ -11,21 +16,20 @@ h3 {
 textarea {
     width: auto;
     resize: none;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Nunito', 'sans-serif';
 }
 
 
 @media (max-width: 550px) {
     .Content {
-        width: 400px;
+        width: 100%;
+        border: none;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
 @media (max-width: 450px) {
-    .Content {
-        width: 300px;
-    }
-
     input {
         width: 50%;
     }

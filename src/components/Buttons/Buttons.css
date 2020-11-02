@@ -1,18 +1,18 @@
 .delete {
     font-size: 12px;
-    background-color: #5e0000;
+    background-color: white;
     color: white;
-    padding: 12px;
-    border: none;
+    padding: 20px;
+    border: 2px solid #dfe2e8;
     border-radius: 4px;
-    width: 60px;
+    width: 35px;
     height: 35px;
     transition-duration: 0.2s;
     background-image: url(../../assets/images/delete.png);
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
-    image-rendering: crisp-edges;
+    image-rendering: auto;
 }
 
 .deleteAll {
@@ -29,25 +29,24 @@
 
 .done {
     font-size: 12px;
-    background-color:#006a4e;
-    color: white;
-    padding: 12px;
-    border: none;
+    background-color:white;
+    color: black;
+    padding: 20px;
+    border: 2px solid #dfe2e8;
     border-radius: 4px;
     margin-right: 8px;
-    width: 60px;
+    width: 35px;
     height: 35px;
     transition-duration: 0.2s;
     background-image: url(../../assets/images/checkmark.png);
     background-position: center;
     background-size: 60%;
     background-repeat: no-repeat;
-    image-rendering: crisp-edges;
+    image-rendering: auto;
 }
 
 .delete:hover {
     box-shadow: 0 0px 1px 0 rgba(0,0,0,0.24), 0 0px 7px 0 rgba(0,0,0,0.19);
-    background-color:#440000;
     cursor: pointer;
 
 }
@@ -59,7 +58,6 @@
 
 .done:hover {
     box-shadow: 0 0px 1px 0 rgba(0,0,0,0.24), 0 0px 7px 0 rgba(0,0,0,0.19);
-    background-color:#00503b;
     cursor: pointer;
 }
 

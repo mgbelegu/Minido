@@ -2,10 +2,26 @@
     font-size: 16px;
     padding: 12px;
     border: none;
-    border-bottom: 1px solid #212529;
+    border-bottom: 2px solid #225ad0;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: #f2f4f6;
     width: 84%;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Nunito', 'sans-serif';
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #9ea7bc;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #9ea7bc;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #9ea7bc;
+  }
 
 form {
     display: flex;
@@ -20,9 +36,9 @@ form {
 
 .itemAdd {
     font-size: 12px;
-    background-color:#006a4e;
+    background-color:white;
     color: white;
-    border: none;
+    border: 2px solid #dfe2e8;
     border-radius: 50%;
     width: 44px;
     height: 44px;
@@ -31,7 +47,7 @@ form {
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
-    image-rendering: crisp-edges;
+    image-rendering: auto;
 }
 
 .itemAdd:focus {
@@ -40,6 +56,5 @@ form {
 
 .itemAdd:hover {
     box-shadow: 0 0px 1px 0 rgba(0,0,0,0.24), 0 0px 7px 0 rgba(0,0,0,0.19);
-    background-color:#00503b;
     cursor: pointer;
 }
