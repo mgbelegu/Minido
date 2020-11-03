@@ -1,9 +1,8 @@
 .Content {
     text-align: center;
-    width: 500px;
+    width: 100%;
     transition: all 0.2 ease-in-out;
     margin: auto;
-    border: 1px solid black;
     margin-top: 48px;
     margin-bottom: 48px;
     background-color: #f2f4f6;
@@ -20,7 +19,8 @@ textarea {
 }
 
 
-@media (max-width: 550px) {
+
+@media (max-width: 750px) {
     .Content {
         width: 100%;
         border: none;
