@@ -33,3 +33,21 @@ h3 {
     margin-left: 8px;
     margin-right: 8px;
 }
+
+
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #225ad0 #9ea7bc;
+  }
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #9ea7bc;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #225ad0;
+    border-radius: 20px;
+    border: 3px solid #9ea7bc;
+  }

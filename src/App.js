@@ -3,6 +3,7 @@ import Layout from './components/Layout/Layout';
 import TodoAdder from './containers/TodoAdder/TodoAdder';
 import TodoItem from './components/TodoItem/TodoItem';
 import TodoItemCompleted from './components/TodoItem/TodoItemCompleted';
+import Container from './containers/ListContainer/ListContainer';
 import './App.css';
 
 class App extends Component {
@@ -106,29 +107,30 @@ class App extends Component {
     return(
       <div>
         <Layout>
+          <Container>
+            <h3>To-Do:</h3>
+            {this.showEmptyMessage()}
+            {this.state.items.map((item, index) => {
+                return <TodoItem 
+                name={item.name}
+                deleteItem={() => this.deleteItemHandler(index)}
+                modifyItemInput={(e) => this.modifyItemHandler(index, e)}
+                doneItem={(e) => this.handleCompleteItem(index, e)}
+                key={item.id}/>;            
+            })}
+            <h3 className="completedTitle">Completed:</h3>
+            {this.showEmptyMessageCompleted()}
+            {this.state.itemsCompleted.map((item, indexCompleted) => {
+              return <TodoItemCompleted 
+                name={item.name}
+                deleteItem={() => this.deleteItemCompletedHandler(indexCompleted)}
+                key={item.id}/>;
+            })}
+          </Container>
           <TodoAdder 
             submitProp={this.handleAddItem} 
             onChange={this.inputHandler} 
             value={this.state.value}/>
-          <h3>To-Do:</h3>
-          {this.showEmptyMessage()}
-          {this.state.items.map((item, index) => {
-              return <TodoItem 
-              name={item.name}
-              deleteItem={() => this.deleteItemHandler(index)}
-              modifyItemInput={(e) => this.modifyItemHandler(index, e)}
-              doneItem={(e) => this.handleCompleteItem(index, e)}
-              key={item.id}/>;            
-          })}
-          <h3 className="completedTitle">Completed:</h3>
-          {this.showEmptyMessageCompleted()}
-          {this.state.itemsCompleted.map((item, indexCompleted) => {
-            return <TodoItemCompleted 
-              name={item.name}
-              deleteItem={() => this.deleteItemCompletedHandler(indexCompleted)}
-              key={item.id}/>;
-          })}
-        <p>Made by <a href="https://minimalistwebs.com/" target="_blank" rel="noreferrer">MinimalistWebs</a> &copy; 2020</p>
         </Layout>
       </div>
     );

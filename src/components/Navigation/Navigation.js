@@ -11,7 +11,7 @@ const navigation = (props) => (
         </div>
         
         <div className="logoGroup">
-            <img src={minidoLogo}/>
+            <img src={minidoLogo} alt="Minido Logo"/>
         </div>
     </div>
 );
