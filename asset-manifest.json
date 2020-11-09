@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Minido/static/css/main.3d6f8ce0.chunk.css",
+    "main.css": "/Minido/static/css/main.07849764.chunk.css",
     "main.js": "/Minido/static/js/main.605620dd.chunk.js",
     "main.js.map": "/Minido/static/js/main.605620dd.chunk.js.map",
     "runtime-main.js": "/Minido/static/js/runtime-main.e7535810.js",
     "runtime-main.js.map": "/Minido/static/js/runtime-main.e7535810.js.map",
-    "static/js/2.e1abe33b.chunk.js": "/Minido/static/js/2.e1abe33b.chunk.js",
-    "static/js/2.e1abe33b.chunk.js.map": "/Minido/static/js/2.e1abe33b.chunk.js.map",
+    "static/js/2.7a269a36.chunk.js": "/Minido/static/js/2.7a269a36.chunk.js",
+    "static/js/2.7a269a36.chunk.js.map": "/Minido/static/js/2.7a269a36.chunk.js.map",
     "static/js/3.ffd74593.chunk.js": "/Minido/static/js/3.ffd74593.chunk.js",
     "static/js/3.ffd74593.chunk.js.map": "/Minido/static/js/3.ffd74593.chunk.js.map",
     "index.html": "/Minido/index.html",
-    "static/css/main.3d6f8ce0.chunk.css.map": "/Minido/static/css/main.3d6f8ce0.chunk.css.map",
-    "static/js/2.e1abe33b.chunk.js.LICENSE.txt": "/Minido/static/js/2.e1abe33b.chunk.js.LICENSE.txt",
+    "static/css/main.07849764.chunk.css.map": "/Minido/static/css/main.07849764.chunk.css.map",
+    "static/js/2.7a269a36.chunk.js.LICENSE.txt": "/Minido/static/js/2.7a269a36.chunk.js.LICENSE.txt",
     "static/media/Minido.09a015af.png": "/Minido/static/media/Minido.09a015af.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e7535810.js",
-    "static/js/2.e1abe33b.chunk.js",
-    "static/css/main.3d6f8ce0.chunk.css",
+    "static/js/2.7a269a36.chunk.js",
+    "static/css/main.07849764.chunk.css",
     "static/js/main.605620dd.chunk.js"
   ]
 }
