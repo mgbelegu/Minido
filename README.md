@@ -2,7 +2,7 @@
 
 Minimalist to-do application created using REACT JS.
 
-Check out my website: [https://minimalistwebs.com](https://minimalistwebs.com/)
+Check out my website: [https://martibelegu.com](https://martibelegu.com/)
 
 
 ## Download and try
